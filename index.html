@@ -18,6 +18,7 @@
       padding: 20px;
     }
 
+    /* 页面标题 */
     .header {
       text-align: center;
       margin: 40px 0;
@@ -35,6 +36,7 @@
       margin-bottom: 15px;
     }
 
+    /* 小红书 B站 链接栏 */
     .social-links {
       display: flex;
       justify-content: center;
@@ -67,6 +69,7 @@
       background-color: #fb7299;
     }
 
+    /* 筛选栏 */
     .filter-bar {
       max-width: 1200px;
       margin: 0 auto 30px;
@@ -93,6 +96,7 @@
       color: white;
     }
 
+    /* 卡片容器 */
     .container {
       max-width: 1200px;
       margin: 0 auto;
@@ -101,6 +105,7 @@
       gap: 25px;
     }
 
+    /* 人物卡片 */
     .card {
       background: white;
       border-radius: 16px;
@@ -113,12 +118,14 @@
       transform: translateY(-5px);
     }
 
+    /* 人物图片 */
     .card-img {
       width: 100%;
       height: 360px;
       object-fit: cover;
     }
 
+    /* 卡片信息 */
     .card-info {
       padding: 18px;
     }
@@ -129,6 +136,7 @@
       margin-bottom: 8px;
     }
 
+    /* 标签：性别 + 年份 */
     .card-tags {
       display: flex;
       gap: 6px;
@@ -153,6 +161,7 @@
       line-height: 1.4;
     }
 
+    /* 分享按钮 */
     .share-btn {
       display: inline-block;
       padding: 10px 16px;
@@ -170,6 +179,7 @@
       background-color: #3554d1;
     }
 
+    /* 底部 */
     .footer {
       text-align: center;
       margin-top: 60px;
@@ -184,11 +194,13 @@
     <h1>海带苗的模3人物分享</h1>
     <p>这里是我捏的模3人物合集，点击按钮即可下载人物</p>
 
+    <!-- ====================== 小红书 + B站 主页链接 ====================== -->
     <div class="social-links">
       <a class="social-btn xiaohongshu" href="https://www.xiaohongshu.com/user/profile/6388c581000000001f015765?tab=note" target="_blank">📕 小红书</a>
       <a class="social-btn bilibili" href="https://space.bilibili.com/3493090843167330" target="_blank">📺 B站主页</a>
     </div>
 
+    <!-- 筛选栏：已加上 2026 -->
     <div class="filter-bar">
       <button class="filter-btn active" onclick="filter('all')">全部</button>
       <button class="filter-btn" onclick="filter('girl')">女生</button>
@@ -201,125 +213,138 @@
 
   <div class="container">
 
-<!-- 2026 -->
+    <!-- ====================== 2026 年 最新 ====================== -->
 <div class="card" data-gender="girl" data-year="2026">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8cX8.png" alt="小樱花">
-<div class="card-info">
-<div class="card-name">小樱花</div>
-<div class="card-tags">
-<span class="tag tag-girl">女生</span>
-<span class="tag tag-year">2026</span>
-</div>
-<div class="card-desc">tag：原创 / 仙子 / 三代继承人</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1W5PI6sTF1KOYVCmlfnq6Xw?pwd=80wn" target="_blank">下载此角色</a>
-</div>
-</div>
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/09/peaLRrd.md.png" alt="芙列佳">
+      <div class="card-info">
+        <div class="card-name">芙列佳</div>
+        <div class="card-tags">
+          <span class="tag tag-girl">女生</span>
+          <span class="tag tag-year">2026</span>
+        </div>
+        <div class="card-desc">tag：原创 / 人类 / 五代继承人</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/180aZCtFAd5vGHDdcmZ5Tnw?pwd=5e2w" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<!-- 2025 -->
-<div class="card" data-gender="girl" data-year="2025">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8R0g.png" alt="圣诞灰姑娘">
-<div class="card-info">
-<div class="card-name">圣诞灰姑娘</div>
-<div class="card-tags">
-<span class="tag tag-girl">女生</span>
-<span class="tag tag-year">2025</span>
-</div>
-<div class="card-desc">tag：NPC改造/ 密泉/ 灰姑娘</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1yP5PdskRGmfNIDRBBX7YWw?pwd=rdbp" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="girl" data-year="2026">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8cX8.png" alt="小樱花">
+      <div class="card-info">
+        <div class="card-name">小樱花</div>
+        <div class="card-tags">
+          <span class="tag tag-girl">女生</span>
+          <span class="tag tag-year">2026</span>
+        </div>
+        <div class="card-desc">tag：原创 / 仙子 / 三代继承人</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1W5PI6sTF1KOYVCmlfnq6Xw?pwd=80wn" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="girl" data-year="2025">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/09/peaDHjH.png" alt="小人鱼莉瑞尔">
-<div class="card-info">
-<div class="card-name">小人鱼莉瑞尔</div>
-<div class="card-tags">
-<span class="tag tag-girl">女生</span>
-<span class="tag tag-year">2025</span>
-</div>
-<div class="card-desc">tag：原创 / 人鱼 / 四代长女</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1nRXgL3v_LTYDwi3Ld282Ag?pwd=2t8n" target="_blank">下载此角色</a>
-</div>
-</div>
+    <!-- ====================== 2025 年 ====================== -->
+    <div class="card" data-gender="girl" data-year="2025">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8R0g.png" alt="圣诞灰姑娘">
+      <div class="card-info">
+        <div class="card-name">圣诞灰姑娘</div>
+        <div class="card-tags">
+          <span class="tag tag-girl">女生</span>
+          <span class="tag tag-year">2025</span>
+        </div>
+        <div class="card-desc">tag：NPC改造/ 密泉/ 灰姑娘</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1yP5PdskRGmfNIDRBBX7YWw?pwd=rdbp" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="boy" data-year="2025">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea82nS.md.png" alt="密泉王子">
-<div class="card-info">
-<div class="card-name">密泉王子</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2025</span>
-</div>
-<div class="card-desc">tag：NPC改造/ 密泉 / 王子</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1frEuu8YGsR07-VZxIuhD4g?pwd=9pkq" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="girl" data-year="2025">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/09/peaDHjH.png" alt="小人鱼莉瑞尔">
+      <div class="card-info">
+        <div class="card-name">小人鱼莉瑞尔</div>
+        <div class="card-tags">
+          <span class="tag tag-girl">女生</span>
+          <span class="tag tag-year">2025</span>
+        </div>
+        <div class="card-desc">tag：原创 / 人鱼 / 四代长女</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1nRXgL3v_LTYDwi3Ld282Ag?pwd=2t8n" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="boy" data-year="2025">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8DfI.jpg" alt="酒保">
-<div class="card-info">
-<div class="card-name">酒保</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2025</span>
-</div>
-<div class="card-desc">tag：原创 / 酒保 / 黄毛</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1fADRFS8pyHn0JOGbQYJ0rg?pwd=57q9" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="boy" data-year="2025">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea82nS.md.png" alt="密泉王子">
+      <div class="card-info">
+        <div class="card-name">密泉王子</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2025</span>
+        </div>
+        <div class="card-desc">tag：NPC改造/ 密泉 / 王子</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1frEuu8YGsR07-VZxIuhD4g?pwd=9pkq" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<!-- 2024 -->
-<div class="card" data-gender="boy" data-year="2024">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea866f.jpg" alt="中秋快乐">
-<div class="card-info">
-<div class="card-name">中秋快乐</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2024</span>
-</div>
-<div class="card-desc">tag：原创 / 奶狗 / 中秋礼物</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1EajzU_GBeUVp0RtmbdiMPg?pwd=h6hx" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="boy" data-year="2025">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8DfI.jpg" alt="酒保">
+      <div class="card-info">
+        <div class="card-name">酒保</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2025</span>
+        </div>
+        <div class="card-desc">tag：原创 / 酒保 / 黄毛</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1fADRFS8pyHn0JOGbQYJ0rg?pwd=57q9" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="boy" data-year="2024">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8y1P.md.jpg" alt="粉毛小眼镜">
-<div class="card-info">
-<div class="card-name">粉毛小眼镜</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2024</span>
-</div>
-<div class="card-desc">tag：原创 / 粉毛 /没给打扮</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1ATwKmiYxa06cKG3VNDQiDg?pwd=nxfg" target="_blank">下载此角色</a>
-</div>
-</div>
+    <!-- ====================== 2024 年 最早 ====================== -->
+    <div class="card" data-gender="boy" data-year="2024">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea866f.jpg" alt="中秋快乐">
+      <div class="card-info">
+        <div class="card-name">中秋快乐</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2024</span>
+        </div>
+        <div class="card-desc">tag：原创 / 奶狗 / 中秋礼物</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1fADRFS8pyHn0JOGbQYJ0rg?pwd=57q9" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="boy" data-year="2024">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8BtA.jpg" alt="真实风吸血鬼">
-<div class="card-info">
-<div class="card-name">真实风吸血鬼</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2024</span>
-</div>
-<div class="card-desc">tag：原创 / 吸血鬼 / 真实风</div>
-<a class="share-btn" href="https://pan.baidu.com/s/16W7J6ZJSaiAoYT1dB8qgbA?pwd=wvnc" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="boy" data-year="2024">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8y1P.md.jpg" alt="粉毛小眼镜">
+      <div class="card-info">
+        <div class="card-name">粉毛小眼镜</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2024</span>
+        </div>
+        <div class="card-desc">tag：原创 / 粉毛 /没给打扮</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1ATwKmiYxa06cKG3VNDQiDg?pwd=nxfg" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
-<div class="card" data-gender="boy" data-year="2024">
-<img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8spt.jpg" alt="艾迪生">
-<div class="card-info">
-<div class="card-name">艾迪生</div>
-<div class="card-tags">
-<span class="tag tag-boy">男生</span>
-<span class="tag tag-year">2024</span>
-</div>
-<div class="card-desc">tag：NPC改造 / 星光海岸 / 发明家</div>
-<a class="share-btn" href="https://pan.baidu.com/s/1-PgWgSaLptkZIHRlkmkkxA?pwd=aqrk" target="_blank">下载此角色</a>
-</div>
-</div>
+    <div class="card" data-gender="boy" data-year="2024">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8BtA.jpg" alt="真实风吸血鬼">
+      <div class="card-info">
+        <div class="card-name">真实风吸血鬼</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2024</span>
+        </div>
+        <div class="card-desc">tag：原创 / 吸血鬼 / 真实风</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/16W7J6ZJSaiAoYT1dB8qgbA?pwd=wvnc" target="_blank">下载此角色</a>
+      </div>
+    </div>
+
+    <div class="card" data-gender="boy" data-year="2024">
+      <img class="card-img" src="https://s41.ax1x.com/2026/04/08/pea8spt.jpg" alt="艾迪生">
+      <div class="card-info">
+        <div class="card-name">艾迪生</div>
+        <div class="card-tags">
+          <span class="tag tag-boy">男生</span>
+          <span class="tag tag-year">2024</span>
+        </div>
+        <div class="card-desc">tag：NPC改造 / 星光海岸 / 发明家</div>
+        <a class="share-btn" href="https://pan.baidu.com/s/1-PgWgSaLptkZIHRlkmkkxA?pwd=aqrk" target="_blank">下载此角色</a>
+      </div>
+    </div>
 
   </div>
 
@@ -328,13 +353,16 @@
   </div>
 
   <script>
+    // 筛选功能
     function filter(type) {
       const cards = document.querySelectorAll('.card');
       const btns = document.querySelectorAll('.filter-btn');
       
+      // 按钮高亮
       btns.forEach(btn => btn.classList.remove('active'));
       event.target.classList.add('active');
       
+      // 筛选显示
       cards.forEach(card => {
         const gender = card.dataset.gender;
         const year = card.dataset.year;
